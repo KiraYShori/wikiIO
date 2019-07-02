@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+
+#sl{
+
+}
+.slider {
+    
+    margin: 0 auto;
+    width: 100px;
+    height: 500px;
+
+
+  transform: translateY(28%);
+  overflow: hidden;
+
+  }
+
+  .card_width{
+    position: absolute;
+    transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+    opacity: 1;
+  }
+
+  .card_width:hover{
+
+    z-index: 98;
+
+      -webkit-filter: drop-shadow(5px 10px 5px rgba(33, 66, 33, 0.45));
+    filter: drop-shadow(5px 5px 5px 5px rgba(50, 10, 21, 0.45));
+    opacity: 1;
+
+  }
+ 
+
+  .card_width{
+    position: absolute;
+
+     width: 30rem;
+     z-index: 1;
+     margin-right: 10px;
+     margin-left: 50px;
+  }
+
+
+
+  .text_color{
+    opacity: 0.7;
+  }
+
+  .card2{
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+ .prevLeftSecond{
+      z-index: 4;
+      left: 0%;
+      opacity: .7;
+}
+  .prev{
+      z-index: 5;
+      left: 15%;
+      opacity: .9;
+  }
+
+.selected{
+      z-index: 10;
+      left: 30%;
+    /*  margin-left: -10px;
+     /* width: 23em;
+      height: 25em;
+*/
+}.next{
+      z-index: 5;
+      left: 45%;
+      opacity: .9;
+}
+
+.nextRightSecond{
+      z-index: 4;
+      left: 60%;
+      opacity: .7;
+
+}

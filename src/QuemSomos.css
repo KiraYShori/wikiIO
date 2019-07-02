@@ -1,0 +1,152 @@
+
+.itens{
+  margin-left: 20px;
+}
+.profile-card h1, h2 {
+  font-weight: 300;
+  margin: -5px 0px 5px 0px;
+}
+
+.profile-card h1 {
+  font-size: 20px;
+}
+
+.profile-card h2 {
+  font-size: 14px;
+}
+
+.profile-card p {
+  margin: 0px;
+}
+
+.profile-card {
+  background: #FFB300;
+
+    min-height: 220px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+  position: relative;
+  top: 50%;
+  z-index: 2;
+  opacity: 1;
+  margin-top: 70px;
+
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 0px 3px 6px rgba(0, 0, 0, 0.23);
+
+
+
+
+}
+
+.profile-card header {
+  width: 190px;
+  height: 210px;
+  padding: 40px 20px 30px 20px;
+  display: inline-block;
+  float: left;
+  border-right: 2px dashed #EEEEEE;
+  background: #FFFFFF;
+  color: #000000;
+  opacity: 0;
+  text-align: center;
+   opacity: 1;
+   margin-top: 0px;
+}
+
+.profile-card header h1 {
+  color: #FF5722;
+}
+
+.profile-card header a {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin: 0px 30px;
+}
+
+
+
+.profile-card header a > img {
+  margin-top: -25px;
+  margin-bottom: 25px;
+  width: 120px;
+  max-width: 80%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.06);
+}
+
+.profile-card header a:hover > img {
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 0px 4px rgba(177, 255, 88, 0.6);
+}
+
+.profile-card .profile-bio {
+  min-height: 250px;
+  float: right;
+  margin-top: 25px;
+  background: #FFFFFF;
+  color: #333333;
+  opacity: 1;
+
+}
+
+.profile-social-links {
+
+
+  display: inline-block;
+  background: #FFFFFF;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  opacity: 1;
+
+  margin-right: 15px;
+
+
+
+}
+
+.profile-social-links li {
+
+  list-style: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  float: left;
+  width: 45%;
+
+
+
+}
+
+aside{
+  vertical-align: bottom;
+}
+
+.profile-social-links li a {
+
+  color: #3363bb;
+  position: relative;
+  overflow: hidden!important;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+
+
+}
+
+.minSize{
+  padding-top: 25px;
+  min-height: 210px;
+  min-width: 200px;
+}
+.profile-social-links li a i {
+  position: relative;
+  z-index: 1;
+}
+
+.profile-social-links li a img,
+.profile-social-links li a svg {
+}

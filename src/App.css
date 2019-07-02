@@ -1,0 +1,53 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**
+ * Basics Styles
+ */
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;  
+}
+body {
+  
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1.6;
+  color: #666;
+
+  background-color: white;
+
+  line-height: 1;
+
+}
+
+header{
+	/*height: 100px;*/
+	width: 100%;
+  background-color: #eee;
+}
+
+
+.Menu{
+  position: absolute;
+  left: -50px;
+  width: 200%;
+  margin-top: 20px;
+  
+}
+
+
+.logoFundo{
+  position: absolute;
+  left: 80%;
+  top: 15px;
+  filter: drop-shadow(10px 15px 5px rgba(99,99,130,.5));
+}
+

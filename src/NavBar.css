@@ -1,0 +1,76 @@
+
+
+.spaceLi{
+  margin-left: 10px;
+}
+
+#Logo{
+	position: relative;
+	top: 0px;
+	width: 150px;
+	margin-left: 10px;
+
+}
+
+
+
+#menuHeader{
+	width: 100%;
+}
+
+#menuHeader ul li a:hover {
+		color: #7a2be2;
+		text-decoration: underline;
+		font-weight: bold;
+		margin-right: 10px;
+		transition: all .5s;
+
+	}
+#menuHeader ul li a {
+		color: green;
+		padding: 10px 20px;
+		transition: all .5s;
+	}
+#menuHeader ul {
+		margin-left: 60px;
+	}
+
+#menuHeader form {
+		display: flex;
+		align-items: center;
+		padding: 0 15px;
+	}
+
+#menuHeader form input {
+		padding: 5px;
+		border: 0;
+	}
+
+#menuHeader form button {
+		background: #1a756f;
+		color: #fff;
+		font-size: 15px;
+		border: 0;
+		padding: 5px 15px;
+		cursor: pointer;
+		transition: all .3s;
+	}
+
+#menuHeader form button:hover {
+		background: #0c5651;
+		transition: all .5s;
+	}
+
+
+.menu-init{
+	padding-top: 50px;
+}
+.menu-fixo{
+		position: fixed;
+		top: 0;
+		z-index: 99;
+		transition: all .3s;
+
+		padding-top: 10px;
+
+}
