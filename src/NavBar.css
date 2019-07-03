@@ -20,7 +20,6 @@
 
 #menuHeader ul li a:hover {
 		color: #7a2be2;
-		text-decoration: underline;
 		font-weight: bold;
 		margin-right: 10px;
 		transition: all .5s;

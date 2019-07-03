@@ -16,15 +16,15 @@ export default class WikiHome extends React.Component{
 		return (
 
 			<div className="wHome">
-				<div className="container secao">
+				<div className="container secao0">
 
 
 	                <div class="row ">
 	                    <Menu />
-	                    
+
 	                    <CardText />
 
-	                    
+
 	                </div>
 
 
@@ -32,8 +32,6 @@ export default class WikiHome extends React.Component{
 
 		    </div>
 
-   		
+
    );}
 }
-
-

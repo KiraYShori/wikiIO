@@ -83,7 +83,7 @@ newWindow(e){
 										<div className="text-right">
 
 
-											<a href="http://localhost:3000/A.pdf" className="btn btn-info btn-lg " download> Leia + </a>
+											<a href="http://localhost:3000/artigos/A.pdf" className="btn btn-info btn-lg " download> Leia + </a>
 
 										</div>
 

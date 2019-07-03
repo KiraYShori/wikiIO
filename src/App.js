@@ -17,34 +17,28 @@ import wikiLogo from './imagens/WikiOLAP.png'
 
 
 
-
-
-
-//Fazer os icones borda vermelha
-  
-
 class App extends Component {
   render() {
     return (
         <div>
-        
-       
-            <div className="mygrid">
+
+
+            <div className="">
 
                 < NavBar />
-                
+
                 < WikiHome />
 
                 <Projeto />
-                
+
                 <DadosAbertos />
 
                 <BigData />
 
                 <Artigos />
-               
+
                 <QuemSomos />
-        
+
 
             </div>
 

@@ -15,20 +15,47 @@ export default class BigData extends React.Component{
 		return (
 
 
-		   <div id="secao2" className="secao colorful">
+		   <div id="" className="secao2">
             <a name="BigData" id="BigData"> </a>
+
+
 
            {/*<img src={bdImg}  id="secao2" className="fundoBD" />
 					 */}
 
-
 					 <div className="">
 					 		<div className="row rowsize">
-									<div className="titleBD ol-sm-12 col-md-12 col-lg-12" >
-									Big Data
-									</div>
+							<div className="col">
 							</div>
+									<div class='Hexp col-md-6 align-middle'>
 
+												<div class="hexagon  align-middle align-text-middle">
+												<div className="text-center center ">
+												BIG DATA
+												</div>
+
+
+
+												</div>
+											<div class="hexagon2 ">
+											<div className="text-center fSize">
+											É um fenômeno ocasionado pelo grande aumento na velocidade,
+											volume e variedade de dados que são gerados diariamente.
+											</div>
+
+											</div>
+
+												{/*<div class="hexagon3"></div>
+												*/}
+
+
+									</div>
+							<div className="col">
+							</div>
+									</div>
+
+							</div>
+{/*
 					 	 <div className="container row center text-light text-justify text-big">
 
 						 			<div className="col-md-4">

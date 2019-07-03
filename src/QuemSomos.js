@@ -15,8 +15,9 @@ export default class QuemSomos extends React.Component{
 		super();
 		this.state ={
 
-
-			name: ["Flávio Roberto dos Santos Coutinho", "Glívia Angélica Rodrigues Barbosa", "Ismael"],
+			classNames: "secao5 secao container2",
+			fundo: " a",
+			name: ["Flávio Roberto dos Santos Coutinho", "Glívia Angélica Rodrigues Barbosa", "Ismael Santana Silva"],
 			img: [coutinho, glivia, ismael],
 			data:["M.Sc., UFMG, Brasil, 2012.",  "M.Sc., UFMG, Brasil, 2012.", "  M.Sc., UFMG, Brasil, 2012."],
 			ul: {0:["Metodologia e Técnicas da Computação", "Desenvolvimento de Jogos Digitais", "Acessibilidade Desenvolvimento Web"],
@@ -134,10 +135,17 @@ createRow(){
 
 }
 
+mudarFundo(){
+ console.log("To aqui");
+	this.setState.fundo = " b";
+
+
+}
 	render(){
 		return(
-            <div id="" className="secao5 secao container2">
+            <div  className={this.state.classNames + this.state.fundo}>
                 <a name="QSN" id="QSN"></a>
+								<button type="button" class="btn btn-primary align-center text-center btn-lg" onClick={this.mudarFundo()}>Mudar Fundo</button>
 
 
 								{this.createRow()}

@@ -3,6 +3,7 @@
 .secao0{
 	position: absolute;
 	max-width: 100%;
+	height: 92%;
 }
 .secao1:over a{
 
@@ -18,16 +19,47 @@
 
 #secao1{
 	background-color: rgba(254, 220, 210, 0.9);
-	height: 680px;
+	height: 100%;
 }
-#secao2{
-	height: 680px;
-	max-width: 100%;
 
+
+
+.secao2::after{
+	content: "";
+	background: url("./imagens/mapafundo.png") no-repeat center top;
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+
+
+	filter: blur(7px);
+	filter: invert(37%) drop-shadow(-10px 10px 20px #33a9ff);
+  opacity: 0.4;
+
+	background-color: #3300aa;
+
+  top: 0;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  height: 680px;
+  width: 100%;
+  z-index: -1;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.secao2 {
+  position: relative;
+  height: 680px;
+  width: 98%;
+  top:0px;
 }
 .secao3::after {
  content: "";
-  background: url("./imagens/back3.png");
+  background: url("./imagens/back2.png");
   filter: sepia(60%);
   opacity: 0.3;
 
@@ -47,7 +79,7 @@
 
 .secao3 {
   position: relative;
-  height: 680px;
+  height: 100%;
   width: 98%;
   top:0px;
 }
@@ -60,11 +92,11 @@
 
 }
 
-.secao5::after {
+.a::after {
  content: "";
-  background: url("./imagens/back1.png");
+  background: url("./imagens/back2.png");
   filter: sepia(60%);
-	filter: blur(4px);
+	filter: blur(3px);
   opacity: 0.35;
   top: 0;
   left: 0px;
@@ -75,15 +107,27 @@
   z-index: -1;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
-
-
-
 }
+.b::after {
+ content: "";
+	background-color: black;
+  opacity: 0.35;
+  top: 0;
+  left: 0px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
 
 .secao5 {
   position: relative;
-  height: 680px;
-  width: 98%;
+  height: 20%;
+  width: 100%;
   top:0px;
 }
 
