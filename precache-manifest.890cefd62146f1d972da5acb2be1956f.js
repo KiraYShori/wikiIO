@@ -4,40 +4,48 @@ self.__precacheManifest = [
     "url": "/wikiIO/static/media/WikiOLAP.33ddccee.png"
   },
   {
-    "revision": "042090c0d5c543a31154",
-    "url": "/wikiIO/static/css/main.7d2dee23.chunk.css"
+    "revision": "e38d307156575665a335",
+    "url": "/wikiIO/static/css/main.478d44e5.chunk.css"
   },
   {
     "revision": "58d512d79c739b9e6310",
     "url": "/wikiIO/static/js/runtime~main.2f08e450.js"
   },
   {
-    "revision": "98538cd07b841776efe7",
-    "url": "/wikiIO/static/js/2.37d84af5.chunk.js"
-  },
-  {
-    "revision": "d06726f8437d71c292e3d6c2fb845775",
-    "url": "/wikiIO/static/media/mapafundo.d06726f8.png"
+    "revision": "bb4840b07878d66c4a28",
+    "url": "/wikiIO/static/js/2.4acce776.chunk.js"
   },
   {
     "revision": "faa216255b2287de0d0cca3130e99272",
     "url": "/wikiIO/static/media/back2.faa21625.png"
   },
   {
-    "revision": "042090c0d5c543a31154",
-    "url": "/wikiIO/static/js/main.b2e22f19.chunk.js"
+    "revision": "f44bce647d059f5d38f795f06d3ae76d",
+    "url": "/wikiIO/static/media/home-back.f44bce64.png"
   },
   {
-    "revision": "12610c6061cf8f8cd0a992738064c9ce",
-    "url": "/wikiIO/static/media/backWiki.12610c60.png"
+    "revision": "d06726f8437d71c292e3d6c2fb845775",
+    "url": "/wikiIO/static/media/mapafundo.d06726f8.png"
+  },
+  {
+    "revision": "e38d307156575665a335",
+    "url": "/wikiIO/static/js/main.a933bdd8.chunk.js"
   },
   {
     "revision": "f83059ff7b3d1ee34344e042d29cb3a7",
     "url": "/wikiIO/static/media/backDA.f83059ff.png"
   },
   {
+    "revision": "8a12c9b1cd4b5bcbf0719b948d4333c1",
+    "url": "/wikiIO/static/media/wikiolap-card.8a12c9b1.png"
+  },
+  {
     "revision": "46a677450eb2ea4c6271b7832cd18bd1",
     "url": "/wikiIO/static/media/bdFundo5.46a67745.png"
+  },
+  {
+    "revision": "12610c6061cf8f8cd0a992738064c9ce",
+    "url": "/wikiIO/static/media/backWiki.12610c60.png"
   },
   {
     "revision": "74972fc212be315dd53ad710c38a670f",
@@ -48,7 +56,7 @@ self.__precacheManifest = [
     "url": "/wikiIO/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "700e3841e29ff2945c227c263ae5563b",
+    "revision": "8fbfc9ec98481705c78f430052fb0de3",
     "url": "/wikiIO/index.html"
   }
 ];
