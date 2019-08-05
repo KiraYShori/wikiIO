@@ -73,3 +73,9 @@
 		padding-top: 10px;
 
 }
+
+
+ a:link    {color:red;}
+   a:visited {color:blue;}
+   a:hover   {color:#900;}
+   a:active  {color:#9f0;}

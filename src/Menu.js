@@ -2,8 +2,7 @@ import React from 'react'
 
 
 
-import wikiLogo from './imagens/WikiOLAP1.png'
-import imgBack from './imagens/backWiki.png'
+import imgBack from './imagens/wikiolap-card.png'
 
 
 export default class CardText extends React.Component{

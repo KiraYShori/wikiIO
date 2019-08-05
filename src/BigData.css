@@ -82,8 +82,8 @@ color: #99aaada;
 .Hexp{position :relative; margin-left: 70px;width: 160%;border:0px solid #123; }
 .hexagon {
   position: absolute;
-  width: 350px;
-  height: 244.34px;
+  width: 300px;
+  height: 194.34px;
   background:	radial-gradient(circle at left, rgba(100, 170, 202, 0.9) 20%, rgba(100, 170, 202, 0.7) 45%);
 
   margin: 122.17px 0;
@@ -97,31 +97,31 @@ color: #99aaada;
   content: "";
   position: absolute;
   width: 0;
-  border-left: 175px solid transparent;
-  border-right: 175px solid transparent;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
 }
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 82.17px solid rgba(100, 170, 202, 0.7);
+  border-bottom: 72.17px solid rgba(100, 170, 202, 0.7);
 
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 72.17px solid rgba(100, 170, 202, 0.7);
+  border-top: 62.17px solid rgba(100, 170, 202, 0.7);
 }
 
 /*Hex 2*/
 .hexagon2 {
   position: absolute;
     width: 240px;
-    height: 140.92px;
+    height: 147.92px;
     background-color: rgba(120, 130, 182, 0.7);
-    margin: 0px 230px;
-    top: 243px;
-    left: 126px;transition:all .3s ease;
+    margin: 0px 180px;
+    top: 0px;
+    left: 0;transition:all .3s ease;
 }
 
 .hexagon2:before,
@@ -143,39 +143,10 @@ color: #99aaada;
   width: 0;
   border-top: 51.96px solid rgba(120, 130, 182, 0.7);
 }
-/*Hex 3*/
-.hexagon3 {
-  position: absolute;
-  width: 80px;
-  height: 46.19px;
-  background-color: lime;
-  margin: 33.09px 0;
-  top :272px;left:38px;transition:all .3s ease;
-}
 
-.hexagon3:before,
-.hexagon3:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-}
 
-.hexagon3:before {
-  bottom: 100%;
-  border-bottom: 23.09px solid lime;
-}
-
-.hexagon3:after {
-  top: 100%;
-  width: 0;
-  border-top: 23.09px solid lime;
-}
-.Hexp:hover .hexagon{left:25px}
-.Hexp:hover .hexagon2{top: 248px;
-    left: 121px;}
-.Hexp:hover .hexagon3{top :268px;left:33px;}
+.Hexp:hover .hexagon{left:20px}
+.Hexp:hover .hexagon2{top: 200px; left: 121px;}
 
 .glass::after{
   width: 120%;
@@ -197,4 +168,19 @@ background:	radial-gradient(circle at right, #77b9ff 0%, #28affa 45%);
 	font-size: 20px;
 	color: #eee;
 	margin-top: 5px;
+}
+
+.fPosition{
+	margin-top: 210px;
+	margin-left: 70px;
+
+}
+
+.fPosition2{
+	margin-top: 200px;
+	margin-left: 320px;
+
+}
+.box{
+	top: 30px;
 }

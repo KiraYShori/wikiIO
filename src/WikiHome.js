@@ -9,26 +9,29 @@ import './Grid.css'
 import CardText from './CardText.js'
 import Menu from './Menu.js'
 
+import './css/Whome.css'
 
 export default class WikiHome extends React.Component{
 
 	render(){
 		return (
 
-			<div className="wHome">
-				<div className="container secao0">
+			<div className="home-my ">
 
 
-	                <div class="row ">
+	                <div className="row">
 	                    <Menu />
 
-	                    <CardText />
 
+												<div className="col-md-6 ">
+		                    <CardText />
+												</div>
+
+												<div className="col-md-1 "> <br></br> </div>
 
 	                </div>
 
 
-		        </div>
 
 		    </div>
 

@@ -25,19 +25,19 @@ class App extends Component {
 
             <div className="">
 
-                < NavBar />
+             < NavBar />
+
 
                 < WikiHome />
+                {/*      <Projeto />
+{*/}
+          <BigData />
 
-                <Projeto />
+                {/*  <DadosAbertos />
 
-                <DadosAbertos />
-
-                <BigData />
-
-                <Artigos />
-
-                <QuemSomos />
+              {/*}  <Artigos />
+              {*/}
+                  <QuemSomos />
 
 
             </div>

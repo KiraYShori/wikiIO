@@ -12,10 +12,10 @@
 
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;  
+  scroll-behavior: smooth;
 }
 body {
-  
+
   font-family: Roboto;
   font-weight: 400;
   font-size: 1.6em;
@@ -36,11 +36,13 @@ header{
 
 
 .Menu{
-  position: absolute;
-  left: -50px;
-  width: 200%;
+  position: relative;
   margin-top: 20px;
-  
+  margin-left: -40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+
 }
 
 
@@ -50,4 +52,3 @@ header{
   top: 15px;
   filter: drop-shadow(10px 15px 5px rgba(99,99,130,.5));
 }
-

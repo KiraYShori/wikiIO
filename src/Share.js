@@ -33,10 +33,10 @@ export default class Share extends React.Component{
 													</a>
 											</div>
 
-	     					<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" className="pad-left twitter-share-button share-icon twitter" data-text="Uma forma colaborativa de processar, analisar e obter informações de dados abertos." data-lang="pt" data-dnt="true" data-show-count="false"><span className="fa fa-twitter"></span></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	     					<div href="https://twitter.com/share?ref_src=twsrc%5Etfw" className="pad-left twitter-share-button share-icon twitter" data-text="Uma forma colaborativa de processar, analisar e obter informações de dados abertos." data-lang="pt" data-dnt="true" data-show-count="false"><span className="fa fa-twitter"></span></div><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-                <a className="pad-left share-icon whatsapp" href="https://www.linkedin.com/shareArticle?mini=true&url=[URL]&title=[TITULO]&summary=[RESUMO]&source=[NOME-DA-FONTE]"> <span class="fa fa-linkedin"></span></a>
+                <a className="pad-left share-icon in" href="https://www.linkedin.com/shareArticle?mini=true&url=[URL]&title=[TITULO]&summary=[RESUMO]&source=[NOME-DA-FONTE]"> <span class="fa fa-linkedin"></span></a>
                     </div>
 
 

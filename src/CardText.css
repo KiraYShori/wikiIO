@@ -2,6 +2,16 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:700,400';
 
 
+.cardText-position{
+  margin-top: 60px;
+  padding-bottom: 20px;
+  border-width: 5px;
+  border-color: #749a69;
+}
+
+art{
+padding-top: 20px;
+}
 
 a {
   text-decoration: none;
@@ -117,6 +127,8 @@ h2 {
   padding-right: 1.6rem;
   padding-left: 1.6rem;
   padding-bottom: 1.6rem;
+  height: 70px;
+
 }
 
 .card__author {
@@ -138,7 +150,7 @@ h2 {
   position: relative;
   float: right;
 
-  margin-top: 0px;
+  top: -50px;
 }
 
 .card__social {
@@ -200,7 +212,7 @@ h2 {
   }
 
 .facebook {
-  background-color: #3b5998;
+  background-color: #3b59a9;
 }
 .twitter {
   background-color: #00abe3;
@@ -209,14 +221,13 @@ h2 {
   background-color: #3b4898;
 }
 
-.facebook,
-.twitter,
-.whatsapp {
-  color: #fff;
-}
+.facebook a {
+  color: #eee;}
+.twitter {
+  color: #eee;}
+
 
   .facebook:hover,
-  .twitter:hover,
-  .whatsapp:hover {
+  .twitter:hover{
     color: #eee;
   }
