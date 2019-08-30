@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/wikiIO/static/media/mapafundo.d06726f8.png"
   },
   {
-    "revision": "f44bce647d059f5d38f795f06d3ae76d",
-    "url": "/wikiIO/static/media/home-back.f44bce64.png"
-  },
-  {
     "revision": "faa216255b2287de0d0cca3130e99272",
     "url": "/wikiIO/static/media/back2.faa21625.png"
+  },
+  {
+    "revision": "f44bce647d059f5d38f795f06d3ae76d",
+    "url": "/wikiIO/static/media/home-back.f44bce64.png"
   },
   {
     "revision": "1e4ca7820fc2fc92c62c",
