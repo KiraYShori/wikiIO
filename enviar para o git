@@ -1,0 +1,10 @@
+npm run build
+./node_modules/.bin/gh-pages -d build
+git status
+git add -A
+git status
+git checkout 
+git branch 
+git commit -m "segundo"
+git push origin master 
+

@@ -18,9 +18,9 @@ export default class BigData extends React.Component{
 		   <div id="" className="secao2 row">
             <a name="BigData" id="BigData"> </a>
 
-							<div className="">
+							<div className="col-md-3">
 							</div>
-									<div className="col-md-5 ">
+									<div className="col-md-2 boxbd ">
 
 												<div className="hexagon align-middle align-text-middle">
 												<div className="text-center center ">
@@ -28,10 +28,9 @@ export default class BigData extends React.Component{
 												</div>
 
 												</div>
-												<div className="col">
-												</div>
+
 									</div>
-									<div className="row col-md-12 box">
+									<div className="row col-md-7 box">
 											<div className="hexagon2 ">
 													<div className="text-center fSize">
 															É um fenômeno ocasionado pelo grande aumento na velocidade,
@@ -55,10 +54,6 @@ export default class BigData extends React.Component{
 													</div>
 											</div>
 
-
-
-							<div className="">
-							</div>
 
 							</div>
 

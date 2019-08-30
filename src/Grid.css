@@ -36,7 +36,7 @@
 
 #secao1{
 	background-color: rgba(254, 220, 210, 0.9);
-	height: 100vh;
+	min-height: 120vh;
 	width: 100vw;
 }
 
@@ -45,7 +45,7 @@
 .secao2::after{
 	content: "";
 	position: absolute;
-	height: 680px;
+	height: 120vh;
 	width: 100vw;
 	background: url("./imagens/mapafundo.png") no-repeat center top;
 
@@ -74,7 +74,6 @@
 
 .secao2 {
   position: relative;
-  height: 680px;
   width: 100vw;
   top:0px;
 }
@@ -106,7 +105,7 @@
 }
 
 #secao4{
-	height: 100vh;
+	min-height: 120vh;
 	width: 100vw;
 	background-color: rgba(188, 170, 164, 0.8);
 	-webkit-font-smoothing: antialiased;

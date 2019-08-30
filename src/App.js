@@ -31,12 +31,12 @@ class App extends Component {
                 < WikiHome />
                 {/*      <Projeto />
 {*/}
-          <BigData />
+             <BigData />
 
-                {/*  <DadosAbertos />
+               <DadosAbertos />
 
-              {/*}  <Artigos />
-              {*/}
+               <Artigos />
+
                   <QuemSomos />
 
 

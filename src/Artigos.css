@@ -1,24 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
-#sl{
-
-}
-.slider {
-    
-    margin: 0 auto;
-    width: 100px;
-    height: 500px;
 
 
-  transform: translateY(28%);
-  overflow: hidden;
-
-  }
-
-  .card_width{
+.card_width{
     position: absolute;
     transition: transform 1s, left 1s, opacity 1s, z-index 0s;
-    opacity: 1;
+    opacity: .8;
+
+
   }
 
   .card_width:hover{
@@ -30,7 +19,7 @@
     opacity: 1;
 
   }
- 
+
 
   .card_width{
     position: absolute;
@@ -38,7 +27,9 @@
      width: 30rem;
      z-index: 1;
      margin-right: 10px;
-     margin-left: 50px;
+     margin-left: 10px;
+     margin-top: 25vh;
+
   }
 
 
@@ -50,45 +41,3 @@
   .card2{
     width: 100%;
   }
-
-
-
-
-
-
-
-
-
-
-
-
- .prevLeftSecond{
-      z-index: 4;
-      left: 0%;
-      opacity: .7;
-}
-  .prev{
-      z-index: 5;
-      left: 15%;
-      opacity: .9;
-  }
-
-.selected{
-      z-index: 10;
-      left: 30%;
-    /*  margin-left: -10px;
-     /* width: 23em;
-      height: 25em;
-*/
-}.next{
-      z-index: 5;
-      left: 45%;
-      opacity: .9;
-}
-
-.nextRightSecond{
-      z-index: 4;
-      left: 60%;
-      opacity: .7;
-
-}

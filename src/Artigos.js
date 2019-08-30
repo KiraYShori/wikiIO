@@ -14,7 +14,7 @@ constructor(){
 
 	super();
 	this.state ={
-		CardPadrao: "card  text-white border-primary bg-secondary mb-3 card_width",
+		CardPadrao: "card text-white border-primary bg-secondary mb-3 card_width",
 		tccLuis: "https://drive.google.com/file/d/0B4JaNkf0R9JGV1JqWWVEeV9MbGh6dzdXdW9SR1Nsd3QweTcw/view?usp=sharing",
 
 		who: [0, 1, 2, 3, 4],
@@ -48,19 +48,19 @@ newWindow(e){
 		return (
 
 
-	            <div id="secao4" className="secao ">
+	            <div id="secao4" className="home-my ">
 	                <a name="Artigos" id="Artigos"></a>
 
 
 
-	       <div id="sl" className="slider card2">
+	       <div id="" className=" card2 card-deck">
 
 
-	              	<div id="p0" className="meucard"  onClick={this.active.bind(this, this.state.card0)} >
-							<div className={this.state.CardPadrao + this.state.card0}>
+	              	<div id="p0" className="meucard card"  onClick={this.active.bind(this, this.state.card0)} >
+							<div className={this.state.CardPadrao }>
 								  <div className="card-body">
 
-									    <h3 className="card-title text-center title_font">0AVALIAÇÃO DA APLICABILIDADE DA
+									    <h3 className="card-title text-center title_font">AVALIAÇÃO DA APLICABILIDADE DA
 											MINERAÇÃO DE DADOS PARA O AUXÍLIO NA
 											DETECÇÃO DE INDÍCIOS DE FRAUDES EM
 											COMPRAS LICITADAS PELO GOVERNO DE
@@ -106,8 +106,8 @@ newWindow(e){
 
 
 
-					  <div id="p1" className="meucard"  onClick={this.active.bind(this, this.state.who[1])} >
-							<div className={this.state.CardPadrao + this.state.card1}>
+					  <div id="p1" className="meucard card"  onClick={this.active.bind(this, this.state.who[1])} >
+							<div className={this.state.CardPadrao }>
 
 								  <div className="card-body">
 
@@ -144,8 +144,8 @@ newWindow(e){
 
 
 
-			  		<div id="p2" className="meucard"  onClick={this.active.bind(this, this.state.who[2])} >
-							<div className={this.state.CardPadrao + this.state.card2}>
+			  		<div id="p2" className="meucard card"  onClick={this.active.bind(this, this.state.who[2])} >
+							<div className={this.state.CardPadrao }>
 								<div className="card-body">
 
 								    <h3 className="card-title text-center title_font">2
@@ -182,8 +182,8 @@ newWindow(e){
 
 
 
-			  <div id="p3" className="meucard"  onClick={this.active.bind(this, this.state.who[3])} >
-					<div className={this.state.CardPadrao + this.state.card3}>
+			  <div id="p3" className="meucard card"  onClick={this.active.bind(this, this.state.who[3])} >
+					<div className={this.state.CardPadrao }>
 						<div className="card-body">
 
 						    <h3 className="card-title text-center title_font">3
@@ -217,7 +217,7 @@ newWindow(e){
 
 					</div>
 				</div>
-}
+
 
 
 

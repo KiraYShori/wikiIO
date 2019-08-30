@@ -181,6 +181,18 @@ background:	radial-gradient(circle at right, #77b9ff 0%, #28affa 45%);
 	margin-left: 320px;
 
 }
+.boxbd {
+		height: 200px;
+}
+
 .box{
-	top: 30px;
+	margin-top: 40vh;
+	height: 500px;
+}
+.box::after{
+	position: absolute;
+	height: 500px;
+	width: 100vw;
+	background-color: blue;
+	z-index: 1;
 }
