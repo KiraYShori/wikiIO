@@ -1,5 +1,4 @@
 
-
 .spaceLi{
   margin-left: 10px;
 }
@@ -25,11 +24,29 @@
 		transition: all .5s;
 
 	}
-#menuHeader ul li a {
-		color: green;
+
+#menuHeader ul li {
 		padding: 10px 20px;
 		transition: all .5s;
 	}
+
+#Projeto a,
+#Artigo a,
+#BigData a,
+#DadosAbertos a,
+#QSN a{
+  color: green;
+}
+
+#ar2 a,
+#bd2 a,
+#da2 a,
+#qs2 a {
+  color: #7a2be2;
+  font-weight: bold;
+}
+
+
 #menuHeader ul {
 		margin-left: 60px;
 	}
@@ -74,8 +91,5 @@
 
 }
 
-
- a:link    {color:red;}
-   a:visited {color:blue;}
    a:hover   {color:#900;}
    a:active  {color:#9f0;}

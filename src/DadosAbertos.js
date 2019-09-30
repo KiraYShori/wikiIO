@@ -30,7 +30,7 @@ export default class DadosAbertos extends React.Component{
 
 		           	<div id="secao1" className="col-md-6 datab">
 
-								<div class="card text-white bg-danger " >
+								<div class="card bg-light " >
 								<div class="card-header"></div>
 									    <div class="card-body row column">
 												<div className="col-md-1"> </div>

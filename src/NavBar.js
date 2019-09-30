@@ -7,6 +7,12 @@ import wikiLogo from './imagens/WikiOLAP.png';
 
 
 export default class NavBar extends React.Component{
+	constructor(){
+		super();
+		this.state = {
+			show: "card__social"
+		};
+	}
 
 	render(){
 		return (
@@ -22,20 +28,21 @@ export default class NavBar extends React.Component{
 									<li className="nav-item spaceLi">
 											<a className="nav-link" href="#"><span className="sr-only">(Página atual)</span></a>
 									</li>
-						      <li className="nav-item spaceLi">
+						      <li id="Projeto" className="nav-item spaceLi">
 						        <a className="nav-link" href="#Projeto"> O Projeto   </a>
 						      </li>
-						      <li className="nav-item spaceLi">
-						        <a className="nav-link" href="#DtAbertos">Dados Abertos   </a>
-						      </li>
-						      <li className="nav-item spaceLi">
-						        <a className="nav-link" href="#BigData">Big Data   </a>
+									<li id="BigData" className="nav-item spaceLi">
+										<a className="nav-link" href="#BigData">Big Data   </a>
+									</li>
+						      <li id="DadosAbertos" className="nav-item spaceLi">
+						        <a  className="nav-link" href="#DtAbertos">Dados Abertos   </a>
 						      </li>
 
-						       <li className="nav-item spaceLi">
-						        <a className="nav-link" href="#Artigos">Artigos   </a>
+
+						       <li id="Artigo" className=" nav-item spaceLi">
+						        <a  className="nav-link aqui" href="#Artigos">Artigos  </a>
 						      </li>
-						      <li className="nav-item spaceLi">
+						      <li id="QSN" className="nav-item spaceLi">
 						        <a className="nav-link" href="#QSN">Quem Somos Nós   </a>
 						      </li>
 

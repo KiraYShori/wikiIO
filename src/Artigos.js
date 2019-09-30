@@ -71,25 +71,24 @@ newWindow(e){
 										<br></br>
 
 									    <p className="card-text text_color">
-										    Resumo: <br></br>  <br></br>
-										    As compras realizadas por órgãos públicos, como é o caso de um governo estadual, passam
-											pelo processo de licitação. A licitação é um processo administrativo, isonômico, no qual a
-											administração pública seleciona a proposta mais vantajosa, menos onerosa e com melhor
-											qualidade possível, para a contratação de um serviço, compra de um produto, locação ou
-											alienação. Ela deve ser pública e acessível a qualquer cidadão...
+										    Introdução: <br></br>  <br></br>
+												A quantidade de informação disponibilizada nos dias de hoje é enorme e vem
+												crescendo exponencialmente. Isso torna possível a realização de tarefas que previamente
+												não poderiam ser executadas, como o reconhecimento de tendências de negócios, a
+												prevenção de doenças, o combate ao crime, entre muitas outras (ECONOMIST, 2010).
 										</p>
 
 
 										<div className="text-right">
 
 
-											<a href="http://localhost:3000/artigos/A.pdf" className="btn btn-info btn-lg " download> Leia + </a>
+											<a href="http://localhost:3000/artigos/avaliacao_aplicacabilidade_da_mineracao_de_dados.pdf" className="btn btn-info btn-lg " download> Leia + </a>
 
 										</div>
 
 										<br></br>
 
-										<div className="card-footer text_color">LUÍS FERNANDO DE QUADROS GUADAGNIN
+										<div className="card-footer text_color"> {/*Não tenho o lugar onde sairam os artigos*/}
 										</div>
 
 								  </div>
@@ -111,27 +110,28 @@ newWindow(e){
 
 								  <div className="card-body">
 
-									    <h3 className="card-title text-center title_font">1 FERRAMENTA PARA PROCESSAMENTO E
+									    <h3 className="card-title text-center title_font"> FERRAMENTA PARA PROCESSAMENTO E
 											INTEGRAÇÃO DE DADOS GOVERNAMENTAIS
 										</h3>
 
 										<br></br>
 									    <p className="card-text text_color">
-										    Resumo: <br></br>  <br></br>
-										    A crescente demanda por transparência levou os governos a disponibilizarem, na Internet,
-											dados que são de interesse da sociedade, são os chamados dados governamentais abertos.
-											No entanto, para as pessoas interessadas, o acesso a essas bases não é suficiente para
-											fazer uso das mesmas, a falta de conhecimento técnico pode ser um empecilho...
+										    Introdução: <br></br>  <br></br>
+												Com a crescente demanda popular por mais transparência das ações governamen-
+												tais, novas políticas de publicidade dessas ações vêm sendo implementadas. Segundo Vaz
+												et al. (2010) as tecnologias de comunicação e informação (TICs) pemitiram potencializar
+												essa transparência, um processo que se deu em três iniciativas, conforme descrito a seguir.
 
 										</p>
 
 
 										<div className="text-right">
-											<a href="#" className="btn btn-info btn-lg ">Leia +</a>
+											<a href="http://localhost:3000/artigos/integracao_dados_governamentais-PedroMBernardo.pdf" className="btn btn-info btn-lg " download> Leia + </a>
+
 										</div>
 
 										<br></br>
-										<div className="card-footer text_color">PEDRO MAGALHÃES BERNARDO
+										<div className="card-footer text_color">
 										</div>
 
 								  </div>
@@ -148,30 +148,28 @@ newWindow(e){
 							<div className={this.state.CardPadrao }>
 								<div className="card-body">
 
-								    <h3 className="card-title text-center title_font">2
+								    <h3 className="card-title text-center title_font">
 									    Projeto e avaliação de interface de um
 										aplicativo móvel para visualização de dados
 									</h3>
 
 									<br></br>
 								    <p className="card-text text_color">
-									    Resumo: <br></br>  <br></br>
-									    Juntamente com a crescente disponibilização de grande volume de dados por
-									    parte de
-										organizações públicas e sociais nos últimos anos, surgiu a demanda por aplicações que
-										viabilizam a manipulação e a extração de conhecimento a partir desses dados por toda a
-										população, independente do seu nível de conhecimento técnico. Nesse contexto, diversas
-										aplicações foram desenvolvidas visando a visualização de dados...
+									    Intrudução: <br></br>  <br></br>
+											Nos últimos anos diversas organizações públicas e sociais têm implementado polí-
+											ticas para tornar seus dados disponíveis ao público geral (GRAVES; HANDLER, 2013).
+											Denominados dados abertos, esses dados podem ser livremente acessados, processados ou
+											compartilhados (JANSSEN; CHARALABIDIS; ZUIDERWIJK, 2013).
 
 									</p>
 
 
 									<div className="text-right">
-										<a href="#" className="btn btn-info btn-lg ">Leia +</a>
+										<a href="http://localhost:3000/artigos/Proj_e_Avaliacao_de_interface-AnaCarolinaGuimaraes.pdf" className="btn btn-info btn-lg ">Leia +</a>
 									</div>
 
 									<br></br>
-									<div className="card-footer text_color">Ana Carolina Guimarães
+									<div className="card-footer text_color">
 									</div>
 
 								</div>
@@ -186,30 +184,28 @@ newWindow(e){
 					<div className={this.state.CardPadrao }>
 						<div className="card-body">
 
-						    <h3 className="card-title text-center title_font">3
+						    <h3 className="card-title text-center title_font">
 							    WIKIOLAP ANDROID: UM APLICATIVO
 								PARA VISUALIZAÇÃO DE DADOS ABERTOS
 							</h3>
 
 							<br></br>
 						    <p className="card-text text_color">
-								Resumo: <br></br>  <br></br>
-								Nos últimos anos, surgiu o fenômeno conhecido por Big Data, a produção de uma grande
-
-								quantidade de dados, sobre os mais diversos tópicos. Paralelamente a isso, dados começa-
-								ram a ser disponibilizados de maneira pública, para a livre utilização das pessoas, de modo
-
-								a disseminar informação e conhecimento. Esses dados são chamados de dados abertos.das mesmas, a falta de conhecimento técnico pode ser um empecilho...
-
+								Introdução: <br></br>  <br></br>
+								Com o avanço da tecnologia, o processo de produção de dados foi intensificado em diversas
+								áreas, gerando o fenômeno conhecido como Big Data (SAGIROGLU; SINANC, 2013).
+								Grande parte desses dados é disponibilizada publicamente, o que deu origem ao conceito
+								de dados abertos. Um exemplo de dados disponiveis publicamente são os "Dados Abertos
+								Governamentais"(BERNARDO et al., 2017).
 							</p>
 
 
 							<div className="nextRightSecond text-right">
-								<a href="#" className="btn btn-info btn-lg ">Leia +</a>
+								<a href="http://localhost:3000/artigos/WikiOLAP_Android-FelipeMagalhaes.pdf" className="btn btn-info btn-lg ">Leia +</a>
 							</div>
 
 							<br></br>
-							<div className="card-footer text_color">FELIPE R RODRIGUES MAGALHÃES
+							<div className="card-footer text_color">
 							</div>
 
 						</div>

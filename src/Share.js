@@ -32,7 +32,7 @@ export default class Share extends React.Component{
 													<span className="fa fa-facebook"></span>
 													</a>
 											</div>
-
+								{/*Twitter precisa trocar o link para o link que vai compartilhar*/}
 	     					<div href="https://twitter.com/share?ref_src=twsrc%5Etfw" className="pad-left twitter-share-button share-icon twitter" data-text="Uma forma colaborativa de processar, analisar e obter informações de dados abertos." data-lang="pt" data-dnt="true" data-show-count="false"><span className="fa fa-twitter"></span></div><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 

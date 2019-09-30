@@ -167,7 +167,7 @@ h2 {
     visibility: visible;
     /*z-index: 3;*/
     transform: translateZ(0);
-    transform: translateX(-48px);
+    transform: translateX(-30px);
       transition: transform 0.35s ease;
   }
 
